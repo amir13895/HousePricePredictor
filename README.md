@@ -1,86 +1,96 @@
 # 🏡 House Price Predictor
 
-### Machine Learning | Python | Streamlit
+### AI-Powered House Price Prediction | Python • Scikit-learn • Streamlit
 
-An interactive Machine Learning web application that predicts house prices based on user-provided features.
+An interactive Machine Learning application designed to predict house prices based on housing features.
 
-🌐 **Live Demo:** [House Price Predictor](https://house-price-predictor-p7qi.onrender.com/)
+<p align="center">
+  <a href="https://house-price-predictor-p7qi.onrender.com/">
+    <strong>🚀 TRY THE LIVE DEMO</strong>
+  </a>
+</p>
 
 ---
 
-## 📌 About The Project
+## 📌 Overview
 
-House Price Predictor is a Machine Learning project developed with Python and Scikit-learn.
+House Price Predictor is a Machine Learning project built with Python and Scikit-learn.
 
-The goal of this project is to build a predictive model that estimates house prices based on housing data.
+The application uses a trained Machine Learning pipeline to estimate house prices from user-provided information.
 
-The trained model is integrated into a Streamlit web application, allowing users to interact with the model through a simple and user-friendly interface.
+The trained model is integrated into a modern Streamlit web application, making predictions accessible through an interactive interface.
 
 ## ✨ Features
 
-- 🧠 Machine Learning-based price prediction
-- 📊 Data processing with Pandas
-- ⚙️ Model loading with Joblib
-- 🌐 Interactive web interface using Streamlit
-- 🚀 Online deployment with Render
+- 🧠 Machine Learning-based house price prediction
+- 📊 Data processing and preparation
+- ⚙️ Pre-trained model integration
+- 🌐 Interactive Streamlit interface
+- 🎨 Custom-designed user interface
+- 🚀 Live deployment using Render
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-| Technology   | Purpose                   |
-| ------------ | ------------------------- |
-| Python       | Main programming language |
-| Pandas       | Data manipulation         |
-| Scikit-learn | Machine Learning          |
-| Joblib       | Model serialization       |
-| Streamlit    | Web application           |
-| Render       | Deployment                |
+| Technology | Usage |
+|---|---|
+| Python | Core programming language |
+| Pandas | Data processing |
+| Scikit-learn | Machine Learning |
+| Joblib | Model loading |
+| Streamlit | Web application |
+| Render | Cloud deployment |
 
 ## 📂 Project Structure
 
 ```text
-House-Price-Predictor/
+HousePricePredictor/
 │
 ├── app.py
-├── House_model.ipynb
+├── model_training.ipynb
+├── house_price_pipeline.zip
+├── input_schema.pkl
 ├── requirements.txt
 ├── README.md
-└── model/
-    └── house_price_pipeline.zip
-    └── input_schema.pkl
-
+│
+├── .devcontainer/
+└── .python-version
 ```
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation
 
-**1. Clone the repository**
+### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/amir13895/HousePricePredictor.git
 ```
 
-**2. Navigate to the project directory**
+### 2. Navigate to the project directory
 
 ```bash
-cd House-Price-Predictor
+cd HousePricePredictor
 ```
 
-**3. Install dependencies**
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Run the application**
+### 4. Run the application
 
 ```bash
 streamlit run app.py
 ```
 
-## 🎯 Project Goal
+## 🧪 Model Development
 
-This project was developed as a practical step toward learning and applying Machine Learning concepts in real-world applications.
+The Machine Learning workflow is documented in `model_training.ipynb`.
 
-It demonstrates the process of training a predictive model and deploying it as an interactive web application.
+It contains the model development process, while the trained pipeline is used by the Streamlit application for predictions.
+
+## 🎯 Project Purpose
+
+This project demonstrates the practical application of Machine Learning, from model development and serialization to building and deploying an interactive web application.
 
 ## 👨‍💻 Author
 
@@ -89,6 +99,10 @@ It demonstrates the process of training a predictive model and deploying it as a
 Aspiring Machine Learning & AI Developer
 
 Interested in Python, Machine Learning, Deep Learning and AI-powered applications.
+
+- GitHub: [@amir13895](https://github.com/amir13895)
+- Telegram: [[@amir13895](https://github.com/amir13895](https://t.me/AmirHymer))
+- Live Project: [House Price Predictor](https://house-price-predictor-p7qi.onrender.com/)
 
 ---
 
