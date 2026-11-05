@@ -101,7 +101,7 @@ Aspiring Machine Learning & AI Developer
 Interested in Python, Machine Learning, Deep Learning and AI-powered applications.
 
 - GitHub: [@amir13895](https://github.com/amir13895)
-- Telegram: [[@amir13895](https://github.com/amir13895](https://t.me/AmirHymer))
+- Telegram: [(https://github.com/amir13895](https://t.me/AmirHymer))
 - Live Project: [House Price Predictor](https://house-price-predictor-p7qi.onrender.com/)
 
 ---
