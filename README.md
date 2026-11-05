@@ -1,83 +1,94 @@
-# 🏠 House Price Predictor
+# 🏡 House Price Predictor
 
-An AI-powered web application that predicts house prices using Machine Learning.
+### Machine Learning | Python | Streamlit
 
-## 📌 Project Overview
+An interactive Machine Learning web application that predicts house prices based on user-provided features.
 
-House Price Predictor is a machine learning project built with Python and Streamlit. It uses a Random Forest Regressor to estimate house prices based on various property features.
+🌐 **Live Demo:** [House Price Predictor](https://house-price-predictor-p7qi.onrender.com/)
 
-The application provides an interactive interface where users can enter property information and receive an estimated price.
+---
+
+## 📌 About The Project
+
+House Price Predictor is a Machine Learning project developed with Python and Scikit-learn.
+
+The goal of this project is to build a predictive model that estimates house prices based on housing data.
+
+The trained model is integrated into a Streamlit web application, allowing users to interact with the model through a simple and user-friendly interface.
 
 ## ✨ Features
 
-- Predict house prices using Machine Learning
-- Interactive web interface built with Streamlit
-- Automated data preprocessing
-- Handles missing values
-- Supports categorical and numerical features
-- Random Forest Regression model
+- 🧠 Machine Learning-based price prediction
+- 📊 Data processing with Pandas
+- ⚙️ Model loading with Joblib
+- 🌐 Interactive web interface using Streamlit
+- 🚀 Online deployment with Render
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Joblib
-- Streamlit
+| Technology   | Purpose                   |
+| ------------ | ------------------------- |
+| Python       | Main programming language |
+| Pandas       | Data manipulation         |
+| Scikit-learn | Machine Learning          |
+| Joblib       | Model serialization       |
+| Streamlit    | Web application           |
+| Render       | Deployment                |
 
-## 📊 Model Performance
+## 📂 Project Structure
 
-| Metric | Result |
-|---|---:|
-| R² Score | 0.910 |
-| MAE | $15,122 |
-| RMSE | $23,118 |
+```text
+House-Price-Predictor/
+│
+├── app.py
+├── House_model.ipynb
+├── requirements.txt
+├── README.md
+└── model/
+    └── house_price_pipeline.zip
+    └── input_schema.pkl
 
-*Evaluation results are based on the test dataset.*
-
-## 🚀 Installation & Usage
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/amir13895/HousePricePredictor.git
 ```
 
-2. Navigate to the project directory:
+## ⚙️ Installation & Setup
+
+**1. Clone the repository**
 
 ```bash
-cd HousePricePredictor
+git clone YOUR_REPOSITORY_URL
 ```
 
-3. Install dependencies:
+**2. Navigate to the project directory**
+
+```bash
+cd House-Price-Predictor
+```
+
+**3. Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+**4. Run the application**
 
 ```bash
 streamlit run app.py
 ```
 
-## 📁 Project Structure
+## 🎯 Project Goal
 
-```text
-HousePricePredictor/
-├── app.py
-├── house_price_pipeline.zip
-├── input_schema.pkl
-├── model_training.ipynb
-└── requirements.txt
-```
+This project was developed as a practical step toward learning and applying Machine Learning concepts in real-world applications.
+
+It demonstrates the process of training a predictive model and deploying it as an interactive web application.
 
 ## 👨‍💻 Author
 
-**Amir Sedghi**
+**Amirreza Sedghi**
 
-Machine Learning & Python Developer
+Aspiring Machine Learning & AI Developer
+
+Interested in Python, Machine Learning, Deep Learning and AI-powered applications.
 
 ---
 
